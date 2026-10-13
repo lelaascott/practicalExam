@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practical Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form onSubmit="handleSubmit(event)">
+  <div id="container">
+    <h1>Splash Zone Tickets</h1>
+    <p>Enter your name and age to see your ticket price.</p>
+
+    <h4>Name:</h4>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <h4>Age:</h4>
+
+    <input type="number" id="age" required>
+
+    <button type="submit" id="submit">Get My Ticket</button>
+
+    <div id="result"></div>
+  </div>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
